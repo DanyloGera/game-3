@@ -79,7 +79,7 @@ function itemHandler(player, item) {
      currentScore = currentScore - 45;
      game.add.sprite(385, 250, 'meatbasket');
   }else if (item.key === 'star') {
-     document.location.href="https://danylogera.github.io/game-5/";
+     document.location.href="https://danylogera.github.io/mingames/";
   }
   if (currentScore === winningScore) {
       createBadge();
