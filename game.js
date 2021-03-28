@@ -132,16 +132,12 @@ window.onload = function () {
     game.load.spritesheet('meatbasket', 'meatbasket.png', { frameWidth: 40, frameHeight: 40 });
     game.load.spritesheet('giftbasket', 'giftbasket.png', { frameWidth: 40, frameHeight: 40 });
     game.load.spritesheet('butterbasket', 'butterbasket.png', { frameWidth: 40, frameHeight: 40 });
+
     game.load.spritesheet('gamemachine', 'gamemachine.png', { frameWidth: 49, frameHeight: 85 });
-    // game.load.spritesheet('2021', 'booklets/2021.png', 36, 44);
-    // game.load.spritesheet('news', 'booklets/news.png', 36, 44);
-
-
 
 
     game.load.spritesheet('badge', 'badge.png', 42, 54);
-    game.load.spritesheet('poison', 'poison.png', 32, 32);
-    game.load.spritesheet('star', 'star.png', 32, 32);
+
   }
 
   //timer
