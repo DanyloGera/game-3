@@ -91,6 +91,9 @@ function badgeHandler(player, badge) {
   badge.kill();
   game.add.sprite(0, 203, 'gamemachine');
   addStar();
+  var btn = document.getElementById('btn-next');
+  btn.removeAttribute("disabled");
+  btn.style.border = "2px solid #000";
   won = true;
 }
 
@@ -137,7 +140,6 @@ window.onload = function () {
 
 
     game.load.spritesheet('badge', 'badge.png', 42, 54);
-    game.load.spritesheet('star', 'star.png', 42, 54);
 
   }
 
