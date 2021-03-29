@@ -91,7 +91,7 @@ function badgeHandler(player, badge) {
   badge.kill();
   game.add.sprite(0, 203, 'gamemachine');
   addStar();
-  
+
   won = true;
 }
 
@@ -138,6 +138,7 @@ window.onload = function () {
 
 
     game.load.spritesheet('badge', 'badge.png', 42, 54);
+    game.load.spritesheet('star', 'star.png', 42, 54);
 
   }
 
