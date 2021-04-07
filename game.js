@@ -24,10 +24,7 @@ function addItems() {
 
 }
 
-function addStar() {
-  items = game.add.physicsGroup();
-  createItem(10, 240, 'star');
-}
+
 
 // add platforms to the game
 function addPlatforms() {
