@@ -78,8 +78,6 @@ function itemHandler(player, item) {
   }else if (item.key === 'coin4') {
      currentScore = currentScore - 105;
      game.add.sprite(385, 250, 'meatbasket');
-  }else if (item.key === 'star') {
-     document.location.href="https://danylogera.github.io/mingames/";
   }
   if (currentScore === winningScore) {
       createBadge();
@@ -89,9 +87,9 @@ function itemHandler(player, item) {
 // when the player collects the badge at the end of the game
 function badgeHandler(player, badge) {
   badge.kill();
-  game.add.sprite(0, 203, 'gamemachine');
-  addStar();
-
+  var btn = document.getElementById('btn-next');
+  btn.removeAttribute("disabled");
+  btn.style.border = "2px solid #000";
   won = true;
 }
 
