@@ -9,7 +9,7 @@ var jumpButton;
 var text;
 var winningMessage;
 var won = false;
-var currentScore = 420;
+var currentScore =3020;
 var winningScore = 0;
 
 // add collectable items to the game
@@ -64,16 +64,16 @@ function createBadge() {
 function itemHandler(player, item) {
   item.kill();
    if (item.key === 'coin1') {
-     currentScore = currentScore - 105;
+     currentScore = currentScore - 130;
      game.add.sprite(275, 510, 'fruitbasket');
   }else if (item.key === 'coin2') {
-     currentScore = currentScore - 105;
+     currentScore = currentScore - 130;
      game.add.sprite(480, 510, 'butterbasket');
   } else if (item.key === 'coin3') {
-     currentScore = currentScore - 105;
+     currentScore = currentScore - 130;
      game.add.sprite(180, 250, 'giftbasket');
   }else if (item.key === 'coin4') {
-     currentScore = currentScore - 105;
+     currentScore = currentScore - 130;
      game.add.sprite(385, 250, 'meatbasket');
   }
   if (currentScore === winningScore) {
