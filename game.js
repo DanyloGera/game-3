@@ -9,7 +9,7 @@ var jumpButton;
 var text;
 var winningMessage;
 var won = false;
-var currentScore =3020;
+var currentScore =520;
 var winningScore = 0;
 
 // add collectable items to the game
