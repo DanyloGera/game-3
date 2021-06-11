@@ -41,7 +41,7 @@ background-image: linear-gradient(to bottom, #fdd588, #feca8b, #fcc090, #f7b894,
 }
 .callout {
   position: fixed;
-      width: 55%;
+      width: 60%;
       top: 2%;
     max-width: 800px;
 z-index: 10;
@@ -56,7 +56,7 @@ z-index: 10;
 }
 
 .callout-container {
-  padding: 10px 60px 30px 60px;
+  padding: 10px 60px 10px 60px;
   background-color: #ccc;
   color: black;
   text-align: center;
