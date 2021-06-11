@@ -41,25 +41,27 @@ background-image: linear-gradient(to bottom, #fdd588, #feca8b, #fcc090, #f7b894,
 }
 .callout {
   position: fixed;
-    width: 50%;
+      width: 55%;
+      top: 2%;
+    max-width: 800px;
+z-index: 10;
 }
 
 .callout-header {
-  padding: 25px 15px;
+  padding: 25px 0;
   background: #555;
-  font-size: 40px;
+  font-size: 26pt;
   color: white;
   text-align: center;
-
 }
 
 .callout-container {
-  padding: 20px 70px 55px 70px;
+  padding: 10px 60px 30px 60px;
   background-color: #ccc;
   color: black;
   text-align: center;
   text-align: justify;
-  font-size: 26pt;
+  font-size: 25pt;
 }
 
 .closebtn {
